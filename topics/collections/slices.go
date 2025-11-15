@@ -33,10 +33,6 @@ func Slice() {
 	a = make([]int, 0)
 	logSlice("make([int, 0])", a)
 
-	if a != nil {
-		fmt.Println("it's not nil")
-	}
-
 	a = make([]int, 3, 5)
 	a[0], a[1], a[2] = 10, 20, 30
 
